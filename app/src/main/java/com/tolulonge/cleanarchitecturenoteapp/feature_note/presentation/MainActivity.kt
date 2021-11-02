@@ -1,4 +1,4 @@
-package com.tolulonge.cleanarchitecturenoteapp
+package com.tolulonge.cleanarchitecturenoteapp.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
