@@ -8,6 +8,7 @@ Features clean architecture, MVVM, dependency injection, CRUD with Room and Cust
 - Edit and update a note
 - Delete a note and Undo the action
 - Order notes by various conditions (ascending, descending by date, title, color e.t.c)
+- Also included are Unit, Integration and End-2-End tests
 
 
 
