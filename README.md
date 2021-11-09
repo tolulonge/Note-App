@@ -14,8 +14,10 @@ Features clean architecture, MVVM, dependency injection, CRUD with Room and Cust
 
 https://user-images.githubusercontent.com/40584796/139787832-28f27985-a0c3-40ef-a16e-b4afe550b2c0.mp4
 
+// System Design Approach
 - Understand the problem + requirements
-  - Breakdown into functional (user should be able to publish a tweet, follow) and non functional (speed, reliability, performance, scalability, high availability, low latency
+  - Breakdown into functional (user should be able to publish a tweet, follow) and non functional 
+    (speed, reliability, performance, scalability, high availability, low latency
     ) and be clear
   - Define boundaries for the features
     
@@ -28,17 +30,20 @@ https://user-images.githubusercontent.com/40584796/139787832-28f27985-a0c3-40ef-
   - Realtime or not or push or pull
   - Define and walkthrough the appflow
     
-- Discuss the components di,data,domain,use cases (boxes and arrows, Write an API for each component), end up with an end to end diagram(Load balancing, Database(sharding), Caching, UI layer)
+- Discuss the components di,data,domain,use cases (boxes and arrows, Write an API for each component), 
+  end up with an end to end diagram(Load balancing, Database(sharding), Caching, UI layer)
  
 - Discuss the trade-offs
     - You can expand on modularity, using FCM, error handling
 
-- Dont forget concurrency, threading, testing, bad network (workmanager), accessibility issues, phone screen issues, low battery, breaking, edge cases, low ram
+- Dont forget concurrency, threading, testing, bad network (workmanager), accessibility issues, phone screen issues, 
+  low battery, breaking, edge cases, low ram
 - Internationality (As the app grows internationally)
 
 - Think into the future
 
-- Principles to remember( Robustness (edge network cases, Scalability, Performance, Extensibility (Adding new features), Resiliency(breaks can it recover))
+- Principles to remember( Robustness (edge network cases, Scalability, Performance, Extensibility 
+  (Adding new features), Resiliency(breaks can it recover))
     
 - Put on your product manager hat
 
